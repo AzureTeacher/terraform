@@ -1,0 +1,6 @@
+#Login interactively and set a subscription to be the current active subscription
+az login
+
+az account show --output table
+
+az account list --all --output table
